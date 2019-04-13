@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=/home/silla/git/repository/.git\:/home/silla/git/notes-api/.git\:
+GitRepositoriesView.GitDirectories.relative=/home/silla/git/repository/.git\:/home/silla/git/notes-api/.git\:
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1

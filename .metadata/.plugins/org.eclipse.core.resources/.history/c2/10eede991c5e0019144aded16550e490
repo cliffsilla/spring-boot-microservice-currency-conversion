@@ -1,0 +1,14 @@
+package com.synergyvault.microservice.currencyconversion.proxies;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.GetMapping;
+import com.synergyvault.microservice.currencyconversion.beans.CurrencyConversionBean;
+
+@FeignClient(name="forex-service", url="localhost:8000")
+
+@GetMapping("/currency-exchange/from/{from}/to/{to}")
+public interface CurrencyConversionServiceProxy {
+	public CurrencyConversionBean retrieveExchangeValue (@PathVariable("from") String from, @PathVariable("to") String to);
+
+}

@@ -1,0 +1,5 @@
+package com.synergyvault.microservice.forex.springbootmicroserviceforexservice.entity;
+
+public class ExchangeValue {
+
+}

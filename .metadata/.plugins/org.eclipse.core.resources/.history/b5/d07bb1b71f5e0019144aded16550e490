@@ -1,0 +1,2 @@
+spring.application.name=currency-conversion-string
+server.port=8100

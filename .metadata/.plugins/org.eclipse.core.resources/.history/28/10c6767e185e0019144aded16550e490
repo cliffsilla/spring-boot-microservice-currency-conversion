@@ -1,0 +1,5 @@
+package com.synergyvault.microservice.currencyconversion.controllers;
+
+public class CurrencyConversionController {
+
+}
